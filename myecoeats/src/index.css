@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'VanCondensedProBold';
+  src: url('./fonts/VanCondensedPro-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'VanCondensedProRegular';
+  src: url('./fonts/VanCondensedPro-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.vanBold {
+  font-family: 'VanCondensedProBold', sans-serif;
+}
+
+.vanRegular{
+  font-family: 'VanCondensedProRegular', sans-serif;
+}
